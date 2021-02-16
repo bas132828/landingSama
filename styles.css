@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* medium or light font type */
+  font-family: "Space Grotesk", sans-serif;
 }
 
 a {
@@ -23,5 +25,40 @@ a {
 
 .navbar_item {
   padding: 10px 15px;
-  font-size: ;
+  font-size: 1rem;
+}
+
+/* section2 */
+
+.persentList {
+  display: flex;
+  align-items: center;
+}
+
+.persentList_item {
+  text-align: center;
+  margin: auto;
+  padding: 10px 15px;
+  font-size: 1rem;
+}
+
+.subText {
+  font-size: 3rem;
+}
+
+.sec2_container {
+  margin: 11%;
+  text-align: center;
+}
+
+.sec2_flexBox {
+  display: flex;
+  align-items: center;
+}
+
+.sec2_item {
+  text-align: center;
+  padding: 15px;
+  font-size: 1rem;
+  display: inline-block;
 }
