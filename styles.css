@@ -102,6 +102,9 @@ a {
 .bckgImage_sec2 {
   position: absolute;
   z-index: -1;
+  margin: auto;
+  left: 0;
+  right: 0;
 }
 
 /*fonts*/
