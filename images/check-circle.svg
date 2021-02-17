@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>check-circle</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="check-circle" fill-rule="nonzero">
+            <circle id="Oval-Copy-2" fill="#FFDDD7" cx="20" cy="20" r="20"></circle>
+            <path d="M24.8383266,15 C24.5422101,15 24.2480078,15.1247368 24.0212716,15.3776586 L17.2952392,22.8804756 L14.9749837,20.2922555 C14.5215112,19.7864121 13.7943461,19.7864121 13.3408738,20.2922555 C12.8863754,20.7980991 12.8863754,21.6142796 13.3408738,22.120123 L16.4781842,25.6197591 C16.9316567,26.126747 17.6588219,26.126747 18.1122941,25.6197591 L25.6598956,17.2055261 C26.1133681,16.6996826 26.1133681,15.8835022 25.6598956,15.3776586 C25.4326465,15.1247368 25.134443,15 24.8383266,15 Z" id="Path-Copy-2" fill="#002E8C"></path>
+        </g>
+    </g>
+</svg>
