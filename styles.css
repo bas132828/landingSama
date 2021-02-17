@@ -10,6 +10,9 @@ a {
   text-decoration: none;
   color: #111237;
 }
+
+/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -24,8 +27,41 @@ a {
 }
 
 .navbar_item {
-  padding: 10px 15px;
-  font-size: 1rem;
+  padding: 12px 12px;
+  font-size: 17.6px;
+  margin: 2px 9px;
+}
+.link:hover {
+  color: #007188;
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+/* section1 */
+.flex-container {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.first {
+  background: #fff3f1;
+  height: 1000px;
+  flex-grow: 6;
+}
+
+.second {
+  height: 1000px;
+  flex-grow: 6;
+}
+
+.img {
+  width: 100%;
+  height: 1000px;
 }
 
 /* section2 */
@@ -66,4 +102,9 @@ a {
 .bckgImage_sec2 {
   position: absolute;
   z-index: -1;
+}
+
+/*fonts*/
+h1 {
+  font-size: 65px;
 }
