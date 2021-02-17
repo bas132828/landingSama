@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8" /><link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title></title>
   </head>
@@ -12,64 +16,107 @@
       <div class="navbar">
         <div class="navbar_section">
           <div class="navbar_item logo">Sama</div>
-          <div class="navbar_item homeButton"><a href="#">Home</a></div>
-          <div class="navbar_item hoItWorksButton">
-            <a href="#">How It works?</a>
+        </div>
+        <div class="navbar_section">
+          <div class="navbar_item homeButton">
+            <a class="link" href="#">Home</a>
           </div>
-          <div class="navbar_item homeButton"><a href="#">Why Sama</a></div>
-          <div class="navbar_item aboutUs"><a href="#">About Us</a></div>
-          <div class="navbar_item coach"><a href="#">Coach</a></div>
-          <div class="navbar_item bookDemo"><a href="#">Book a Demo</a></div>
+          <div class="navbar_item hoItWorksButton">
+            <a class="link" href="#">How it works?</a>
+          </div>
+          <div class="navbar_item homeButton">
+            <a class="link" href="#">Why Sama</a>
+          </div>
+          <div class="navbar_item aboutUs">
+            <a class="link" href="#">About Us</a>
+          </div>
+          <div class="navbar_item coach">
+            <a class="link" href="#">Coach</a>
+          </div>
+          <div class="navbar_item bookDemo">
+            <a class="link" href="#">Book a Demo</a>
+          </div>
         </div>
       </div>
 
       <section class="section1">
-        <h1>
-          Supercharge <br />
-          your team's <br />
-          development
-        </h1>
-        <img src="images/cover-large.jpg" alt="lady with the phone" />
-        <h2>
-          We’re elevating engagement to make the world a better place by
-          bringing the power of executive coaching to everyone.
-        </h2>
-        <input type="email" name="Your work email" value="" />
-        <button type="button" name="Learn more"></button>
-        <ul>
-          <li>1:1 coaching</li>
-          <li>Empowering</li>
-          <li>Inclusive</li>
-        </ul>
+        <div class="flex-container">
+          <div class="first">
+            <h1>
+              Supercharge <br />
+              your team's <br />
+              development
+            </h1>
+            <h2>
+              We’re elevating engagement to make the world a better place by
+              bringing the power of executive coaching to everyone.
+            </h2>
+            <input type="email" name="Your work email" value="" />
+            <button type="button" name="Learn more"></button>
+            <ul>
+              <li>1:1 coaching</li>
+              <li>Empowering</li>
+              <li>Inclusive</li>
+            </ul>
+          </div>
+          <div class="second">
+            <img
+              class="img lady"
+              src="images/cover-large.jpg"
+              alt="lady with the phone"
+            />
+          </div>
+        </div>
       </section>
 
-      <section class='section2'>
-        <div class='persentList'>
-          <div class='persentList_item'><span class='subText'>2 x </span> <br>
-            More inclusive</div>
-          <div class='persentList_item'><span class='subText'>+ 65 %</span><br>
-            Engagement</div>          
-          <div class='persentList_item'><span class='subText'> + 53 %</span><br>
-            Productivity</div>
-          <div class='persentList_item'><span class='subText'> + 80 % </span><br>
-            Resilience</div>
+      <section class="section2">
+        <div class="persentList">
+          <div class="persentList_item">
+            <span class="subText">2 x </span> <br />
+            More inclusive
+          </div>
+          <div class="persentList_item">
+            <span class="subText">+ 65 %</span><br />
+            Engagement
+          </div>
+          <div class="persentList_item">
+            <span class="subText"> + 53 %</span><br />
+            Productivity
+          </div>
+          <div class="persentList_item">
+            <span class="subText"> + 80 % </span><br />
+            Resilience
+          </div>
         </div>
-        <img src="/images/steps-bg.svg" class='bckgImage_sec2' alt="pink background">
-        <div class='sec2_container'>
-          <h2>Getting started is <br>
-            as easy as 1, 2, 3...</h2>
-            <div class='sec2_flexBox'></div>
-            <div class='sec2_item'>1 <br>
-              Your company signs up to Sama.</div>
-            <div class='sec2_item'>2 <br>
-              Employees match with their professional coach.
-              </div>
-            <div class='sec2_item'>3 <br>
-              Employees begin working with their coach via chat, voice or video call.
-              </div>
-            
+        <img
+          src="/images/steps-bg.svg"
+          class="bckgImage_sec2"
+          alt="pink background"
+        />
+        <div class="sec2_container">
+          <h2>
+            Getting started is <br />
+            as easy as 1, 2, 3...
+          </h2>
+          <div class="sec2_flexBox"></div>
+          <div class="sec2_item">
+            1 <br />
+            Your company signs up to Sama.
+          </div>
+          <div class="sec2_item">
+            2 <br />
+            Employees match with their professional coach.
+          </div>
+          <div class="sec2_item">
+            3 <br />
+            Employees begin working with their coach via chat, voice or video
+            call.
+          </div>
         </div>
-        <img src="/images/build-stronger-teams.svg" alt="build-stronger-teams">
+        <img
+          src="/images/build-stronger-teams.svg"
+          alt="build-stronger-teams"
+        />
       </section>
     </main>
     <script src="script.js" charset="utf-8"></script>
