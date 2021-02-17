@@ -62,3 +62,9 @@ a {
   font-size: 1rem;
   display: inline-block;
 }
+
+.bckgImage_sec2 {
+  position: absolute;
+  z-index: -1;
+
+}
