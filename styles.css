@@ -16,9 +16,13 @@ a {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 0.5px;
   background: #ffffff;
   color: #111237;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
 }
 
 .navbar_section {
@@ -27,12 +31,23 @@ a {
 }
 
 .navbar_item {
-  padding: 12px 12px;
+  padding: 6px 15px;
   font-size: 17.6px;
-  margin: 2px 9px;
+  margin: 1px 4px;
 }
 .link:hover {
   color: #007188;
+}
+.demo {
+  display: inline-block;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #007188;
+  padding: 0.9em 0.9em;
+}
+.demo:hover {
+  background-color: #004351;
 }
 
 .logo {
@@ -40,6 +55,9 @@ a {
   font-weight: bold;
 }
 
+.extra {
+  padding: 37px;
+}
 /* section1 */
 .flex-container {
   width: 100%;
@@ -52,6 +70,7 @@ a {
   background: #fff3f1;
   height: 80%;
   flex-grow: 6;
+  text-align: center;
 }
 
 .second {
@@ -110,4 +129,5 @@ a {
 /*fonts*/
 h1 {
   font-size: 65px;
+  padding: 90px 0 20px 0;
 }
